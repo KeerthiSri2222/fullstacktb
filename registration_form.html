@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body >
+   <form action="/action_page.php" method="get">
+        <center>
+          
+                <div style="background-color: floralwhite; width:500px; ">
+            <fieldset style="background-color: rgb(215, 215, 213); width: 500px;">
+               
+      <div align="left">    
+ <h1 style="font-size: 40px;"><b>Event Registration Form</b></h1>
+
+ <pre>
+Full Name:    <input type="text" placeholder="Enter Name">
+
+Phone Number: <input type="phone number" placeholder="+91">
+
+Email:        <input type="mail" placeholder="Enter email"> 
+
+Gender:       <input type="radio" id="male" name="Gender" value="Male"><label for="male">Male</label><input type="radio" id="female" name="Gender" value="Female"><label for="male">Female</label><input type="radio" id="others" name="Gender" value="Others"><label for="others">Others</label>
+
+Date of Birth:<input type="datetime-local" placeholder="Enter DOB">
+
+Address:      <input type="textarea" placeholder="enter address">
+
+File:         <input type="file">
+
+  
+ </pre>
+<h1>Event Details</h1>
+<pre>
+<label>Event Category:</label><select id="Event Category">
+    <option value="" disabled selected hidden>options</option>
+<option value="1">session1</option>
+<option value="2">session2</option>
+<option value="3">session3</option>
+</select><br>
+Class Mode:   <input type="radio" id="1" name="Class" value="Online"><label for="1">Online</label><input type="radio" id="2" name="Class" value="Offline"><label for="2">Offline</label><br>
+Languages:    <input type="checkbox" id="1" name="Language" value="python"><label for="1">python</label><input type="checkbox" id="2" name="Language" value="Java"><label for="2">Java</label><br>
+
+<!--<button value="submit"></button-->
+<input type="button" value="submit">
+</div>
+</center>
+ </pre> 
+ </form>
+
+</body>
+</html>
